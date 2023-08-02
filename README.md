@@ -873,28 +873,6 @@ Be sure to include the following information:
 4.  A map showing the 5 schools and the 4 neighborhoods that meet the
     criteria, overlain on a map of all the neighborhoods and schools.
 
-The **Introduction** section should state the research objective and the
-relevant criteria for selecting the neighborhoods and schools.
-
-The **Data and Methods** section should state the data sets used in the
-analysis, from where those data were acquired, and the GIS operations
-employed.
-
-The **Results** section should state the results (i.e. the neighborhoods
-that meet the criteria, as well as the four pieces of information listed
-directly above). The final map should be cited in the text here
-(e.g. Figure 1).
-
-The **Discussion** section should state an interpretation of the results
-(i.e. do these neighborhoods tend to concentrate in certain regions of
-Philadelphia, how can this information be used to improve bike network
-access for students, etc.), limitations of the analysis, and how the
-analysis could be improved or expanded.
-
-The **Tables and Figures** section should contain the map of the
-selected schools and neighborhoods noted above, with a caption. The map
-should be cited in the text.
-
 ## Getting Started
 
 All the data and operations you need to complete this assignment are
