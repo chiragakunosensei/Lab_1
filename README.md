@@ -37,14 +37,14 @@ following the tutorial.
     governments, federal and state agencies, nonprofits, and academic
     institutions.
 3. Note: Unfortuantely since there have been some changes in the files you will not be able to find everything on PASDA - it is worth exploring though
-4.  Please use this file for 'schools' - unfortnately there was ane error with one of the columns so I fixed it
+4.  Please use this file for 'schools' - unfortunately there was ane error with one of the columns so I fixed it
 5.  Here is the neighborhoods file, which is now missing from PASDA
 6.  In addition to schools and neighborhoods, find and download the following (download them from PASDA):
       - 2026 Bike Network (not that this lab includes a tutorial for an older version of the bike network so there may be some small differences from what you see and what is in the            tutorial)
 8.  You should have downloaded 3 files:
-      - PhillyPlanning\_Schools.zip
-      - PhillyPlanning\_Neighborhoods.zip
-      - PhillyStreets\_Bike\_Network.zip
+      - PhiladelphiaSchool_Facilities2016.zip [Schools](images/PLease use this facilities file-1.zip)
+      - Philadelphia-neighborhoods.zip [Neighohoods](images/philadelphia-neighborhoods(2) (1).zip)
+      - Philadelphia_Bike_Network2025.zip
 9.  Notice all 3 files are .zip files, which is a single file that is
     composed of one or more individual files that have been compressed
     to a smaller storage size for convenience. The lab computers will
