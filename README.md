@@ -36,15 +36,15 @@ following the tutorial.
     Pennsylvania State University. PASDA hosts data provided by local
     governments, federal and state agencies, nonprofits, and academic
     institutions.
-3. Note: Unfortuantely since there have been some changes in the files you will not be able to find everything on PASDA - it is worth exploring though
-4.  Please use this file for 'schools' - unfortunately there was ane error with one of the columns so I fixed it
-5.  Here is the neighborhoods file, which is now missing from PASDA
-6.  In addition to schools and neighborhoods, find and download the following (download them from PASDA):
-      - 2026 Bike Network (not that this lab includes a tutorial for an older version of the bike network so there may be some small differences from what you see and what is in the            tutorial)
+3. Note: Unfortuantely since there have been some changes in the files you will not be able to find everything on PASDA - it is worth exploring though -- you will get the bike network file ther
+4.  Please use the file for 'schools' located on Canvas - unfortunately there was ane error with one of the columns so I fixed it
+5.  The neighborhood file is also on Canvas
+6.  In addition to schools and neighborhoods (from Canvas), find and download the following (download them from PASDA):
+      - 2026 Bike Network (not that this lab includes a tutorial for an older version of the bike network so there may be some small differences from what you see and what is in the tutorial)
 8.  You should have downloaded 3 files:
-      - PhiladelphiaSchool_Facilities2016.zip [Schools](images/PLease use this facilities file-1.zip)
-      - Philadelphia-neighborhoods.zip [Neighohoods](images/philadelphia-neighborhoods(2) (1).zip)
-      - Philadelphia_Bike_Network2025.zip
+      - PhiladelphiaSchool_Facilities2016.zip (from Canvas)
+      - Philadelphia-neighborhoods.zip (from Canvas)
+      - Philadelphia_Bike_Network2025.zip (From PASDA)
 9.  Notice all 3 files are .zip files, which is a single file that is
     composed of one or more individual files that have been compressed
     to a smaller storage size for convenience. The lab computers will
