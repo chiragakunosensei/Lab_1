@@ -36,10 +36,11 @@ following the tutorial.
     Pennsylvania State University. PASDA hosts data provided by local
     governments, federal and state agencies, nonprofits, and academic
     institutions.
-3. Note: Unfortuantely since there have been some changes in the files you will not be able to find everything on PASDA - it is worth exploring though -- you will get the bike network file ther
-4.  Please use the file for 'schools' located on Canvas - unfortunately there was ane error with one of the columns so I fixed it
-5.  The neighborhood file is also on Canvas
-6.  In addition to schools and neighborhoods (from Canvas), find and download the following (download them from PASDA):
+3. Note: Unfortuantely since there have been some changes in the files you will not be able to find everything on PASDA - it is worth exploring though -
+   The neighborhood file is here [folder](https://tuprd-my.sharepoint.com/:f:/g/personal/tuf12267_temple_edu/IgCJuoM47oHYQbc8FXAW_KGUAeOzvS2scDS5lyd_J6nPjn4?e=z0mCbn)
+5.  Please use the file for 'schools' located on Canvas - unfortunately there was ane error with one of the columns so I fixed it
+6.  The neighborhood file is also on Canvas
+7.  In addition to schools and neighborhoods (from Canvas), find and download the following (download them from PASDA):
       - 2026 Bike Network (not that this lab includes a tutorial for an older version of the bike network so there may be some small differences from what you see and what is in the tutorial)
 8.  You should have downloaded 3 files:
       - PhiladelphiaSchool_Facilities2016.zip (from Canvas)
