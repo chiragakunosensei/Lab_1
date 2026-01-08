@@ -27,43 +27,43 @@ following the tutorial.
     C:\\data\\Documents.) For future labs, create new workspace folders
     – Lab2, Lab3, etc.
 2.  Here we will acquire the following spatial data layers for the city
-    of Philadelphia: schools, bike routes, and neighborhoods. We will
-    download data from **PASDA** (The Pennsylvania Geospatial
-    Clearinghouse), which is an example of a **geoportal**, a website
-    that collects geospatial data from many different sources organized
-    around a particular theme or region of interest. Unsurprisingly,
-    PASDA, hosts data related to Pennsylvania, and is maintained by
-    Pennsylvania State University. PASDA hosts data provided by local
+    of Philadelphia: schools, bike routes, and neighborhoods. The data
+    orginally comes (but linked to a folder below) from **PASDA**
+    (The Pennsylvania Geospatial Clearinghouse), which is an example of
+    a **geoportal**, a website that collects geospatial data from many
+    different sources organized around a particular theme or region of interest.
+    Unsurprisingly, PASDA, hosts data related to Pennsylvania, and is maintained
+    by Pennsylvania State University. PASDA hosts data provided by local
     governments, federal and state agencies, nonprofits, and academic
     institutions.
-3. Note: Unfortuantely since there have been some changes in the files you will not be able to find everything on PASDA - it is worth exploring though
+    
+4. You can find bike networks, neighborhoods, and schools in Philadelphia using the OneDrive link below
    
    [folder](https://tuprd-my.sharepoint.com/:f:/g/personal/tuf12267_temple_edu/IgCJuoM47oHYQbc8FXAW_KGUAeOzvS2scDS5lyd_J6nPjn4?e=z0mCbn)
 
-   In this folder you find 'zipped archives' of the following geographic laters
-   a) Neighborhoods (polygon)
-   b) Philadelphia Streets (line)
-   c) Facilities (schools, enrollment, private vs. public etc) (points)
-   d) Bike Networks for 2012
-   e) Bike Networks for 2025
+   In this folder you find 'zipped archives' of the following geographic layers
+   a) Neighborhoods (We will only be interested in the names of these neighborhoods) This is a polygon file
+   b) Bike Lanes (We will just use this file for location, not data in the attribute table) This is a line file
+   c) Facilities (Data about schools that include enrollment, private vs. public etc) This is a point file
 
    
-8.  You should have downloaded 3 files:
-      - PhillyPlanningSchools.zip (from either Canvas or the folder linked above)
-      - Philadelphia-neighborhoods.zip (from either Canvas or the folder linked above)
-      - PhiladelphiaBikeNetwork_2012.zip (from either PASDA or the file linked above)
+5.  You should have downloaded 3 files:
+      - PhillyPlanning_Schools.zip (fromthe folder linked above)
+      - PhillyPlanning_Neighborhoods.zip (from the folder linked above)
+      - PhillyStreets_Bike_Network.zip (from the folder linked above)
   
-I included 2012 here, because it will help you follow along better, particularly for the assignment. You are free to use the 2025 version, but your work may look different than the screenshots
+    As an important note, since the files have been updated overtime the screenshots don't always correspond perfectly
+    to the files you have, but I have (2026) the best I can to remedy this error.
 
-9.  Notice all 3 files are .zip files, which is a single file that is
+7.  Notice all 3 files are .zip files, which is a single file that is
     composed of one or more individual files that have been compressed
     to a smaller storage size for convenience. The lab computers will
     automatically save the zip files to the Downloads folder. Copy or
     move these files to your Lab1 workspace folder.
-10.  Unzip the archive. The lab computers have 7-Zip installed on them.
+8.  Unzip the archive. The lab computers have 7-Zip installed on them.
     In File Explorer, right-click the file and choose **7-Zip → Extract
     Here or 7-Zip → Extract to 'folder\_name'**.
-11.  Unzip each of the .zip files using the 7-zip application (or another
+9.  Unzip each of the .zip files using the 7-zip application (or another
     appropriate application) and extract the files to your workspace
     folder.
 
@@ -98,7 +98,7 @@ I included 2012 here, because it will help you follow along better, particularly
 9.  Switch to the **Table** tab. Now you see the attribute table
     for this layer. Each row represents one polygon, or neighborhood, in
     the map. The number of rows, i.e. neighborhoods, appears at the
-    bottom (148).
+    bottom (159).
     
 10. Scroll to the right to see the different columns (called **fields**).
     Find the column with the heading `Name`. These are the names of the different neighborhoods.
@@ -472,7 +472,7 @@ The table containing the records for schools should open below the map window. T
 1.  The attribute fields names appear at the top. Scroll across the
     table to view them all. Some important fields are:
       - `FACIL_NAME` which contains the name of the school
-      - `ENROLLMENT` which contains the number of students
+      - `ENROLL` which contains the number of students
       - `GRADE_LEVE` which contains the grade level of the school
       - `TYPE_SPECI` which indicates whether the school is run by the
         District (Philadelphia School District), or is a private,
@@ -562,7 +562,7 @@ unique values found in the `FACIL_NAME` column of the schools layer. Scroll down
 10.  Clear your selection and close the Geoprocessing pane.
 11.  As another example, let’s select schools with enrollments over 500
     students. Open **Select by Attributes** for the schools layer and click the **New Expression** button.
-12.  Create a query statement by choosing `ENROLLMENT` field
+12.  Create a query statement by choosing `ENROLL` field
     in the first box, and 'is greater than' in the second box. Click in the last box and type in 500. Click Run.
 13. The selection should show that 212 out of 550 schools have
     enrollments over 500.
@@ -587,22 +587,22 @@ As an example, we will get statistics from the schools attribute table:
 
 1.  Clear all your selections so no schools are selected. Open the
     schools attribute table.
-2.  Right-click the heading of the field `ENROLLMENT` and select
+2.  Right-click the heading of the field `ENROLL` and select
     **Statistics**.
 3.  On the **Statistics** mode of the Chart Properties pane, you’ll see information about the
     values in the field whose heading you clicked.  
     ![](images/statistics_pane.png) 
 4.  Note the statistics, e.g. minimum, maximum, mean, etc. The sum is
-    the sum of the row values in the `ENROLLMENT` field for all the
+    the sum of the row values in the `ENROLL` field for all the
     schools, i.e. the total number of students in all schools – 231,981
     students.
 5.  The **Statistics** tool will also generate a histogram in the table area
-    that shows the distribution of the values in the `ENROLLMENT` field.
+    that shows the distribution of the values in the `ENROLL` field.
     ![](images/statistics_histogram.png)
 6.  In the table area, switch back to the schools layer attribute table.
     Using **Select by Attributes**, select only the private schools. There 
     should be 173 schools selected.
-7.  Reopen the statistics for the `ENROLLMENT` field. Note that there is now
+7.  Reopen the statistics for the `ENROLL` field. Note that there is now
     a column in the side pane for the **Selection** as well as the entire **Dataset**.  We 
     can compare the summary statistics for the entire schools layer to our
     selection of private schools.
@@ -653,7 +653,7 @@ located within 500 feet of the bike network.
       - **Selection Type:** New Selection
       ![](images/lab1_fig7.png)
 4.  Press Run.
-5.  You should see 140 of the 550 schools selected. Open the attribute
+5.  You should see 126 of the 550 schools selected. Open the attribute
     table for the schools layer to see how many schools are selected.
 6.  Clear your selection so no schools are selected.
 
@@ -702,7 +702,7 @@ features – the neighborhoods that contain the selected schools.
       - Press Run.
       ![](images/lab1_fig10.png)
 
-There should be 10 out of 48 neighborhoods selected.
+There should be 13 out of 158 neighborhoods selected.
 
 ![](images/lab1_fig11.png)
 
@@ -874,11 +874,11 @@ Be sure to include the following information:
 
 1.  A list of the Philadelphia School District schools that both enroll
     more than 1,200 students and are within 0.1 mile of the bike network
-    (*hint…there are 5 schools that meet these two criteria*).
-2.  The total enrollment of those 5 schools,
-3.  A list of the neighborhoods that contain those 5 schools
+    (*hint…there are 9 schools that meet these two criteria*).
+2.  The total enrollment of those 9 schools,
+3.  A list of the neighborhoods that contain those 9 schools
     (*hint…there are 4 neighborhoods*).
-4.  A map showing the 5 schools and the 4 neighborhoods that meet the
+4.  A map showing the 9 schools and the 8 neighborhoods that meet the
     criteria, overlain on a map of all the neighborhoods and schools.
 
 ## Getting Started
@@ -895,11 +895,11 @@ in steps:
     operation).
 2.  Of those selected schools, select those that are also within 0.1
     miles of a bike network (use a **Select by Location** operation).
-3.  Export the 5 selected schools to its own shapefile.
-4.  Select the neighborhoods that contain those 5 selected schools (use
+3.  Export the 9 selected schools to its own shapefile.
+4.  Select the neighborhoods that contain those 9 selected schools (use
     a **Select by Location** operation)
-5.  Export the 4 selected neighborhoods to its own shapefile.
-6.  Create a map layout that overlays the 5 selected schools
-    and 4 selected neighborhoods on top of the schools and neighborhoods
+5.  Export the 8 selected neighborhoods to its own shapefile.
+6.  Create a map layout that overlays the 9 selected schools
+    and 8 selected neighborhoods on top of the schools and neighborhoods
     for all of Philadelphia, using color settings that distinguish the
     schools and neighborhoods that meet the selection criteria.
