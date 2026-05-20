@@ -39,7 +39,7 @@ following the tutorial.
     
 4. You can find bike networks, neighborhoods, and schools in Philadelphia using the OneDrive link below
    
-   [folder](https://tuprd-my.sharepoint.com/:f:/g/personal/tuf12267_temple_edu/IgCJuoM47oHYQbc8FXAW_KGUAeOzvS2scDS5lyd_J6nPjn4?e=z0mCbn)
+   [folder](https://tuprd-my.sharepoint.com/:f:/g/personal/tuf12267_temple_edu/IgCJuoM47oHYQbc8FXAW_KGUASM3uLdpZUf-rN3-_PteTAg?e=4vfC14)
 
    In this folder you find 'zipped archives' of the following geographic layers
    a) Neighborhoods (We will only be interested in the names of these neighborhoods) This is a polygon file
