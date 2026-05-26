@@ -875,11 +875,12 @@ Be sure to include the following information:
 1.  A list of the Philadelphia School District schools that both enroll
     more than 1,200 students and are within 0.1 mile of the bike network
     (*hint…there are 9 schools that meet these two criteria*).
-2.  The total enrollment of those 9 schools,
+2.  The total enrollment of those 9 schools
 3.  A list of the neighborhoods that contain those 9 schools
-    (*hint…there are 4 neighborhoods*).
 4.  A map showing the 9 schools and the 8 neighborhoods that meet the
     criteria, overlain on a map of all the neighborhoods and schools.
+
+*** Note that depending on the bike network file you use you may get 5 schools in 4 to 5 neighborhoods - email your instructor if you have questions 
 
 ## Getting Started
 
