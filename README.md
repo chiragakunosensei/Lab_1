@@ -877,6 +877,9 @@ I am coming up with these numbers/selections based on the files I included the O
 1.  A list of the Philadelphia School District schools that both enroll
     more than 1,200 students and are within 0.1 mile of the bike network
     (*hint…there are 5 schools that meet these criteria*).
+
+Note: After each selection I created a new files to keep things clean. 
+
 ![](images/lab1firstselection.png)
 ![](images/typehighlighted.png)
 ![](images/2ndselectbyattribute.png)
