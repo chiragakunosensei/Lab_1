@@ -877,14 +877,14 @@ I am coming up with these numbers/selections based on the files I included the O
 1.  A list of the Philadelphia School District schools that both enroll
     more than 1,200 students and are within 0.1 mile of the bike network
     (*hint…there are 5 schools that meet these criteria*).
-![](images/lab1_first selection.png)
-![](images/type highlighted.png)
-![](images/2nd select by attribute.png)
-![](images/enrollment highlighted.png)
-![](images/select by location.png)
-![](images/after select by location.png)
-![](images/final select by location.png)
-![](images/final result.png)
+![](images/lab1firstselection.png)
+![](images/typehighlighted.png)
+![](images/2ndselectbyattribute.png)
+![](images/enrollmenthighlighted.png)
+![](images/selectbylocation.png)
+![](images/afterselectbylocation.png)
+![](images/finalselectbylocation.png)
+![](images/finalresult.png)
 
 3.  The total enrollment of each of the 5 schools
 4.  A list of the neighborhoods that contain those 5 schools
