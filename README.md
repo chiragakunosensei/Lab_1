@@ -868,16 +868,27 @@ bike network?
 
 ## Deliverables
 
-**Turn in a report in the format described in the syllabus.**
+**Turn in a report in the format described in the Canvas Module.**
 
 Be sure to include the following information:
 
+I am coming up with these numbers/selections based on the files I included the OneDrive Folder Above. If you downloaded the files form PASDA you may get something different.
+
 1.  A list of the Philadelphia School District schools that both enroll
     more than 1,200 students and are within 0.1 mile of the bike network
-    (*hint…there are 9 schools that meet these two criteria*).
-2.  The total enrollment of those 9 schools
-3.  A list of the neighborhoods that contain those 9 schools
-4.  A map showing the 9 schools and the 8 neighborhoods that meet the
+    (*hint…there are 5 schools that meet these criteria*).
+![](images/lab1_first selection.png)
+![](images/type highlighted.png)
+![](images/2nd select by attribute.png)
+![](images/enrollment highlighted.png)
+![](images/select by location.png)
+![](images/after select by location.png)
+![](images/final select by location.png)
+![](images/final result.png)
+
+3.  The total enrollment of each of the 5 schools
+4.  A list of the neighborhoods that contain those 5 schools
+5.  A map showing the 5 schools and the 4 neighborhoods that meet the
     criteria, overlain on a map of all the neighborhoods and schools.
 
 *** Note that depending on the bike network file you use you may get 5 schools in 4 to 5 neighborhoods - email your instructor if you have questions 
@@ -896,10 +907,10 @@ in steps:
     operation).
 2.  Of those selected schools, select those that are also within 0.1
     miles of a bike network (use a **Select by Location** operation).
-3.  Export the 9 selected schools to its own shapefile.
-4.  Select the neighborhoods that contain those 9 selected schools (use
+3.  Export the 5 selected schools to its own shapefile.
+4.  Select the neighborhoods that contain those 5 selected schools (use
     a **Select by Location** operation)
-5.  Export the 8 selected neighborhoods to its own shapefile.
+5.  Export the 4 selected neighborhoods to its own shapefile.
 6.  Create a map layout that overlays the 9 selected schools
     and 8 selected neighborhoods on top of the schools and neighborhoods
     for all of Philadelphia, using color settings that distinguish the
